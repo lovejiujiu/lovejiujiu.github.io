@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[下辈子不做程序猿]]></title>
   <link href="http://lovejiujiu.github.io/atom.xml" rel="self"/>
   <link href="http://lovejiujiu.github.io/"/>
-  <updated>2014-10-22T00:36:57+08:00</updated>
+  <updated>2014-10-23T17:47:04+08:00</updated>
   <id>http://lovejiujiu.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[笨笨熊]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[最近有点烦]]></title>
+    <link href="http://lovejiujiu.github.io/blog/2014/10/22/zui-jin-you-dian-fan/"/>
+    <updated>2014-10-22T22:13:30+08:00</updated>
+    <id>http://lovejiujiu.github.io/blog/2014/10/22/zui-jin-you-dian-fan</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
