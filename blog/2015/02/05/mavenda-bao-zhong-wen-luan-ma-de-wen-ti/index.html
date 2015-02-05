@@ -9,10 +9,10 @@
   <meta name="author" content="笨笨熊">
 
   
-  <meta name="description" content="在终端上利用maven进行打包时，有时候不能正常显示中文文字,会出现乱码 而涉及到中文乱码的问题考虑如下两点：
-* maven命令输出的是什么编码类型，是否支持中文
-* 用于显示的终端设置的是什么编码，是否支持中文
-* 上述两项所用的编码是否一致 基于上面的描述， &hellip;">
+  <meta name="description" content="在终端上利用maven进行打包时，有时候不能正常显示中文文字,会出现乱码 而涉及到中文乱码的问题考虑如下两点
+1. maven命令输出的是什么编码类型，是否支持中文
+2. 用于显示的终端设置的是什么编码，是否支持中文
+3. 上述两项所用的编码是否一致 基于上面的描述， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -89,13 +89,14 @@
 
 <div class="entry-content"><p>在终端上利用<code>maven</code>进行打包时，有时候不能正常显示中文文字,会出现乱码</p>
 
-<p>而涉及到<code>中文乱码</code>的问题考虑如下两点：
-*  maven命令输出的是什么编码类型，是否支持中文
-*  用于显示的终端设置的是什么编码，是否支持中文
-*  上述两项所用的编码是否一致</p>
+<p>而涉及到<code>中文乱码</code>的问题考虑如下两点
+1.  maven命令输出的是什么编码类型，是否支持中文
+2.  用于显示的终端设置的是什么编码，是否支持中文
+3.  上述两项所用的编码是否一致</p>
 
-<p>基于上面的描述，一个简单的解决方案就是将maven的输出编码类型和终端的编码均设为<code>utf8</code>。
-终端的设置方法在此就不细说，而<code>maven</code>的输出编码设置也很简单，如下：
+<p>基于上面的描述，一个简单的解决方案就是将maven的输出编码类型和终端的编码均设为<code>utf8</code>。</p>
+
+<p>终端的设置方法在此就不细说，而<code>maven</code>的输出编码设置也很简单，如下：
 将下面的语句加入到<code>~/.bash_profile</code></p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
